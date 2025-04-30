@@ -1,0 +1,156 @@
+.hupt-row-mittel-nav-bar {
+  margin-top: 25px;
+}
+.btn:hover {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 105, 31);
+}
+
+#tab-description {
+  padding: 15px;
+  background-color: #fefefe;
+}
+
+.img-text-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#card-recht {
+  background-color: #ffffff;
+}
+
+.tab-pane {
+  margin-top: 10px;
+}
+
+.Ihnen-text-RECHT-nav-bar {
+  .card-body {
+    display: grid;
+    align-items: center;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+
+.carousel-control-next-icon:after {
+  background-image: none !important;
+  content: ">";
+  font-size: 55px;
+  color: rgb(11, 11, 10);
+}
+
+.carousel-control-prev-icon:after {
+  background-image: none !important;
+  content: "<";
+  font-size: 55px;
+  color: rgb(11, 11, 10);
+}
+
+.product-price__old {
+  font-size: 22px;
+  text-align: center;
+}
+
+.product-price__price,
+.product-price__old {
+  font-family: GoodHeadline Black Italic, tahoma, freesans, verdana, arial,
+    helvetica, "Sans Serif", "MS Sans Serif", sans-serif;
+  font-style: italic;
+
+  white-space: nowrap;
+}
+
+.product-price .label__old-price {
+  -webkit-text-decoration: line-through solid #b92215;
+  text-decoration: line-through solid #b92215;
+}
+
+.product-price .label__old-price,
+.product-price .label__uvp {
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--font-color-uvp-price);
+}
+
+.product-price .label__discount {
+  font-family: Roboto, tahoma, freesans, verdana, arial, helvetica, "Sans Serif",
+    "MS Sans Serif", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4285714286;
+  font-style: italic;
+  background-color: #b92215;
+  color: #fff;
+  padding: 0 0.625rem;
+  margin-left: 0.625rem;
+  white-space: nowrap;
+}
+
+.product-price__price {
+  font-size: 2rem;
+  line-height: 2;
+  color: #000000;
+  text-align: center;
+}
+
+.text-titel-link-nav {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.sidebar-rechte img {
+  width: 100%;
+}
+
+.carousel-inner-ordnung img {
+  width: 100%;
+}
+
+@media (max-width: 1030px) {
+  .Ihnen-text-RECHT-nav-bar {
+    width: 100%;
+  }
+
+  .link-bar {
+    display: none;
+  }
+
+  .img-text-button {
+    display: block;
+    justify-items: center;
+  }
+
+  .card-header {
+    text-align: center;
+  }
+
+  .mittel-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.footer-text {
+  color: rgb(56, 219, 86);
+  margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+  background: linear-gradient(270deg, #3b3c3e 25%, #2194ecab 100%);
+  color: rgb(0, 0, 0);
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
